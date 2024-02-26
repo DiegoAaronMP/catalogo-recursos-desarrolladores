@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from './components/Card'
+import { CategoryCard } from './components/CategoryCard'
 
 export const CatalogoApp = () => {
     return (
@@ -13,9 +13,9 @@ export const CatalogoApp = () => {
 
             {/* Contenedor */}
             <div className='grid grid-cols-3 grid-rows-5 p-4 gap-3 bg-white w-auto h-svh mx-40 rounded-md'>
-                <Card />
-                <Card />
-                <Card />
+                <CategoryCard />
+                <CategoryCard />
+                <CategoryCard />
             </div>
         </>
     )
