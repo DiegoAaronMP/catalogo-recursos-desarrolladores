@@ -1,5 +1,6 @@
 import React from 'react'
 import { CategoryCard } from './components/CategoryCard'
+import { ResourceCard } from './components/ResourceCard'
 
 export const CatalogoApp = () => {
     return (
@@ -13,9 +14,9 @@ export const CatalogoApp = () => {
 
             {/* Contenedor */}
             <div className='grid grid-cols-3 grid-rows-5 p-4 gap-3 bg-white w-auto h-svh mx-40 rounded-md'>
-                <CategoryCard />
-                <CategoryCard />
-                <CategoryCard />
+                <ResourceCard />
+                <ResourceCard />
+                <ResourceCard />
             </div>
         </>
     )
