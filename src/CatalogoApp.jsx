@@ -5,10 +5,10 @@ import { ResourceCard } from './components/ResourceCard'
 export const CatalogoApp = () => {
     return (
         <>
-            <h1 className='mt-20 mx-auto text-center text-5xl font-bold'>
+            <h1 className='mt-20 mx-auto text-center text-5xl font-roboto-condensed font-bold'>
                 Catálogo de recursos para desarrolladores
             </h1>
-            <h2 className='mt-4 mb-6 mx-auto text-center text-xl'>
+            <h2 className='mt-4 mb-6 mx-auto text-center font-roboto-condensed text-xl'>
                 Un texto más como subtítulo
             </h2>
 

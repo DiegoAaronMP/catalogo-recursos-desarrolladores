@@ -6,7 +6,7 @@ export const CategoryCard = () => {
             <div className='bg-white rounded-full p-4 my-auto'>
                 <IconBrandGithubFilled className='size-20 text-stone-400' />
             </div>
-            <span className='mx-auto text-white font-semibold text-2xl'>Categoría</span>
+            <span className='mx-auto text-white font-roboto-condensed font-semibold text-2xl'>Categoría</span>
         </div>
     )
 }
