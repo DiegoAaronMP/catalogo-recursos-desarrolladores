@@ -13,7 +13,7 @@ export const CatalogoApp = () => {
             </h2>
 
             {/* Contenedor */}
-            <div className='grid grid-cols-3 auto-rows-max p-4 gap-3 bg-white w-auto h-svh mx-40 rounded-md'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max p-4 gap-3 gap-y-5 bg-white mx-7 md:mx-16 lg:mx-40 w-auto h-auto rounded-md'>
                 <ResourceCard />
                 <ResourceCard />
                 <ResourceCard />

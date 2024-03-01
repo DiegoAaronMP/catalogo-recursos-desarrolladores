@@ -1,3 +1,4 @@
+import { IconExternalLink } from '@tabler/icons-react'
 import React from 'react'
 
 export const ResourceCard = () => {
@@ -15,8 +16,9 @@ export const ResourceCard = () => {
                 <p className='mt-1.5 text-sm font-roboto opacity-95'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates corporis ipsam.</p>
             </div>
 
-            <button className='bg-lime-200 text-lime-800 rounded-xl font-roboto m-2 py-1.5'>
+            <button className='flex justify-center items-center bg-lime-200 hover:bg-lime-300 text-lime-800  rounded-xl font-roboto gap-1 m-2 py-1.5'>
                 Ir al recurso
+                <IconExternalLink />
             </button>
         </div>
     )
