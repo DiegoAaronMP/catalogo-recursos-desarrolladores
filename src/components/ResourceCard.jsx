@@ -4,7 +4,7 @@ import React from 'react'
 export const ResourceCard = () => {
     return (
         <div className='flex flex-col rounded-xl border border-gray-200'>
-            <span className='absolute -mt-3 -ml-3 px-2 rounded-xl bg-red-200 text-red-800 text-sm font-roboto font-semibold'>Categoría</span>
+            {/* <span className='absolute -mt-3 -ml-3 px-2 rounded-xl bg-red-200 text-red-800 text-sm font-roboto font-semibold'>Categoría</span> */}
             <img className='rounded-xl m-3' src="src\images\placeholder-image.webp" alt="Imagen del recurso" />
 
             <div className='ml-3 mb-3'>
