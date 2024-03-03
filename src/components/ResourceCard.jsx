@@ -7,7 +7,7 @@ export const ResourceCard = () => {
             {/* <span className='absolute -mt-3 -ml-3 px-2 rounded-xl bg-red-200 text-red-800 text-sm font-roboto font-semibold'>Categoría</span> */}
             <img className='rounded-xl m-3 aspect-video' src="src\images\placeholder-image.webp" alt="Imagen del recurso" />
 
-            <div className='ml-3 mb-3'>
+            <div className='mx-3 mb-3'>
                 <div className='flex flex-wrap gap-1 mt-1'>
                     <span className='rounded-xl px-1.5 bg-blue-200 text-blue-800 text-xs font-roboto font-medium p-0.5'>Etiquetas</span>
                     <span className='rounded-xl px-1.5 bg-blue-200 text-blue-800 text-xs font-roboto font-medium p-0.5'>Etiquetas</span>
