@@ -1,13 +1,9 @@
-import React from 'react'
-import { ResourcesPage } from './pages/ResourcesPage';
-import { CategoriesPage } from './pages/CategoriesPage';
-
+import { AppRouter } from "./router/AppRouter"
 
 export const CatalogoApp = () => {
     return (
         <>
-           {/* <ResourcesPage /> */}
-           <CategoriesPage />
+           <AppRouter />
         </>
     )
 }
