@@ -1,9 +1,12 @@
 import { BackToAllCategoriesButton } from '../components/BackToAllCategoriesButton'
+import { FixedRepoButton } from '../components/FixedRepoButton'
 import { ResourceCard } from '../components/ResourceCard'
 
 export const ResourcesPage = () => {
     return (
         <>
+            <FixedRepoButton />
+
             <h1 className='mt-20 mx-auto text-center text-blue-900 text-5xl font-roboto-condensed font-bold'>
                 Nombre de la categoría
             </h1>
