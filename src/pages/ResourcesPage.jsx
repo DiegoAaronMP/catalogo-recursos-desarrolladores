@@ -1,10 +1,19 @@
+import { useParams } from 'react-router-dom'
 import { BackToAllCategoriesButton } from '../components/BackToAllCategoriesButton'
 import { FixedRepoButton } from '../components/FixedRepoButton'
 import { ResourceCard } from '../components/ResourceCard'
+import { useMemo } from 'react'
+import { getResourcesByCategory } from '../helpers/getResourcesByCategory'
 
 export const ResourcesPage = () => {
+
+    const { category } = useParams();
+
+    const resources = useMemo(() => getResourcesByCategory(category), [category]);
+
     return (
         <>
+
             <FixedRepoButton />
 
             <h1 className='mt-20 mx-auto text-center text-blue-900 text-5xl font-roboto-condensed font-bold'>
@@ -23,9 +32,11 @@ export const ResourcesPage = () => {
 
             {/* Contenedor de las cards*/}
             <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max p-4 gap-3 gap-y-5 bg-white mx-7 md:mx-16 lg:mx-40 w-auto h-auto rounded-md'>
-                <ResourceCard />
-                <ResourceCard />
-                <ResourceCard />
+                {
+                    resources.map(resource => (
+                        <ResourceCard key={resource.id} {...resource} />
+                    ))
+                }
             </section>
         </>
     )
