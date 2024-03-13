@@ -1,15 +1,30 @@
-import { useParams } from 'react-router-dom'
+import { useMemo } from 'react'
+import { Navigate, useParams } from 'react-router-dom'
 import { BackToAllCategoriesButton } from '../components/BackToAllCategoriesButton'
 import { FixedRepoButton } from '../components/FixedRepoButton'
 import { ResourceCard } from '../components/ResourceCard'
-import { useMemo } from 'react'
 import { getResourcesByCategory } from '../helpers/getResourcesByCategory'
 
 export const ResourcesPage = () => {
 
+    // Obtiene la categoría de los params
     const { category } = useParams();
 
-    const resources = useMemo(() => getResourcesByCategory(category), [category]);
+    const resources = useMemo(() => {
+        try {
+            return getResourcesByCategory(category)
+        } catch (error) {
+            return [];
+        }
+    }, [category]);
+    
+    /**
+     * Si no hay recursos, entonces regresa a la página
+     * de selección de categoría
+     */
+    if (resources.length === 0) {
+        return <Navigate to='/' />
+    }
 
     return (
         <>
