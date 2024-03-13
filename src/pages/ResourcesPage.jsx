@@ -32,7 +32,7 @@ export const ResourcesPage = () => {
             <FixedRepoButton />
 
             <h1 className='mt-20 mx-auto text-center text-blue-900 text-5xl font-roboto-condensed font-bold'>
-                Nombre de la categoría
+                {category}
             </h1>
             <h2 className='mt-4 mb-6 mx-auto text-center font-roboto-condensed text-xl'>
                 Un texto en <strong className='text-amber-800'>negritas</strong> como ejemplo
