@@ -1,11 +1,11 @@
 import { IconExternalLink } from '@tabler/icons-react'
 import React from 'react'
 
-export const ResourceCard = ({ title, category, tags, description, }) => {
+export const ResourceCard = ({ title, category, tags, description, image, }) => {
     return (
         <div className='flex flex-col rounded-xl border border-gray-200 transition hover:bg-sky-50 hover:-translate-y-0.5 hover:ring-2 hover:ring-blue-400 cursor-pointer'>
             {/* <span className='absolute -mt-3 -ml-3 px-2 rounded-xl bg-red-200 text-red-800 text-sm font-roboto font-semibold'>Categoría</span> */}
-            <img className='rounded-xl m-3 aspect-video' src="src\images\placeholder-image.webp" alt="Imagen del recurso" />
+            <img className='rounded-xl m-3 aspect-video' src={`${image}`} alt="Imagen del recurso" />
 
             <div className='mx-3 mb-3'>
                 <div className='flex flex-wrap gap-1 mt-1'>
