@@ -4,6 +4,7 @@ import { BackToAllCategoriesButton } from '../components/BackToAllCategoriesButt
 import { FixedRepoButton } from '../components/FixedRepoButton'
 import { ResourceCard } from '../components/ResourceCard'
 import { getResourcesByCategory } from '../helpers/getResourcesByCategory'
+import { categoryIcons } from '../consts/categoryIcons'
 
 export const ResourcesPage = () => {
 
@@ -18,6 +19,8 @@ export const ResourcesPage = () => {
         }
     }, [category]);
     
+    // Tomamos el icono de categoryIcons
+    const {Icon} = categoryIcons[category];
     /**
      * Si no hay recursos, entonces regresa a la página
      * de selección de categoría
@@ -31,8 +34,9 @@ export const ResourcesPage = () => {
 
             <FixedRepoButton />
 
-            <h1 className='mt-20 mx-auto text-center text-blue-900 text-5xl font-roboto-condensed font-bold'>
+            <h1 className='mt-20 mx-auto flex justify-center items-center gap-2 text-blue-900 text-5xl font-roboto-condensed font-bold'>
                 {category}
+                <Icon className='size-11'/>
             </h1>
             <h2 className='mt-4 mb-6 mx-auto text-center font-roboto-condensed text-xl'>
                 Un texto en <strong className='text-amber-800'>negritas</strong> como ejemplo
