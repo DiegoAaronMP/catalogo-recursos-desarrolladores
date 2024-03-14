@@ -1,4 +1,3 @@
-export const categoryArray = ['Iconos', 'Colores', 'Herramientas', 'Fuentes', 'Educación'];
 export const categoryStyles = {
     Iconos: {
         bgColorClass: 'bg-[#ff998d]',

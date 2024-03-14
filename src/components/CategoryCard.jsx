@@ -1,5 +1,5 @@
 import { IconBrandGithubFilled } from '@tabler/icons-react';
-import { categoryStyles } from '../data/consts';
+import { categoryStyles } from '../consts/categoryStyles';
 
 export const CategoryCard = ({title}) => {
 

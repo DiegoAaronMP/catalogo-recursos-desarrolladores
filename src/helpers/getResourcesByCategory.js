@@ -2,7 +2,9 @@
  * Código inspirado en el Curso de React De cero a experto
  * impartido por Fernando Herrera
  */
-import { categoryArray } from "../data/consts";
+
+
+import { categoryArray } from "../consts/categoryArray";
 import { resources } from "../data/resources";
 
 export const getResourcesByCategory = (category) => {

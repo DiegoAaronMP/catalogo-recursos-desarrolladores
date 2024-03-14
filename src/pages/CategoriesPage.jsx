@@ -1,6 +1,7 @@
 import { CategoryCard } from '../components/CategoryCard'
 import { FixedRepoButton } from '../components/FixedRepoButton'
-import { categoryArray } from '../data/consts';
+import { categoryArray } from '../consts/categoryArray'
+
 
 export const CategoriesPage = () => {
     return (
