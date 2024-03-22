@@ -19,10 +19,10 @@ export const ResourceCard = ({ title, category, tags, description, image, url })
                 <p className='mt-1.5 text-sm font-roboto opacity-95'>{description}</p>
             </div>
 
-            <button className='flex justify-center items-center m-2 mt-auto py-1.5 gap-1 transition duration-75 bg-blue-200 hover:bg-blue-300 text-blue-800 active:brightness-110 rounded-xl font-roboto'>
+            <a href={url} target='_blank' rel='noreferrer' role='button' className='flex justify-center items-center m-2 mt-auto py-1.5 gap-1 transition duration-75 bg-blue-200 hover:bg-blue-300 text-blue-800 active:brightness-110 rounded-xl font-roboto'>
                 Ir al recurso
                 <IconExternalLink />
-            </button>
+            </a>
         </a>
     )
 }
