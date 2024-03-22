@@ -12,7 +12,7 @@ export const CategoriesPage = () => {
                 Catálogo de recursos para desarrolladores
             </h1>
             <h2 className='mt-4 mb-6 mx-auto text-center font-roboto-condensed text-xl'>
-                Un texto en <strong className='text-amber-800'>negritas</strong> como ejemplo
+                Da <strong className='text-amber-800'>clic</strong> en una <strong className='text-amber-800'>categoría</strong> para ver los <strong className='text-amber-800'>recursos.</strong>
             </h2>
 
             {/* Contenedor de las cards*/}
