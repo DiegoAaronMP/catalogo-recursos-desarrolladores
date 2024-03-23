@@ -1,12 +1,12 @@
 import { CategoryCard } from '../components/CategoryCard'
-import { FixedRepoButton } from '../components/FixedRepoButton'
+import { FixedNav } from '../components/FixedNav'
 import { categoryArray } from '../consts/categoryArray'
 
 
 export const CategoriesPage = () => {
     return (
         <>
-            <FixedRepoButton />
+            <FixedNav />
 
             <h1 className='mt-20 mx-auto text-center text-blue-900 text-5xl font-roboto-condensed font-bold'>
                 Catálogo de recursos para desarrolladores

@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 import { BackToAllCategoriesButton } from '../components/BackToAllCategoriesButton'
-import { FixedRepoButton } from '../components/FixedRepoButton'
 import { ResourceCard } from '../components/ResourceCard'
 import { getResourcesByCategory } from '../helpers/getResourcesByCategory'
 import { categoryIcons } from '../consts/categoryIcons'
+import { FixedNav } from '../components/FixedNav'
 
 export const ResourcesPage = () => {
 
@@ -32,7 +32,7 @@ export const ResourcesPage = () => {
     return (
         <>
 
-            <FixedRepoButton />
+            <FixedNav />
 
             <h1 className='mt-20 mx-auto flex justify-center items-center gap-2 text-blue-900 text-5xl font-roboto-condensed font-bold'>
                 {category}

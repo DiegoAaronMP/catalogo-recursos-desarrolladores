@@ -1,6 +1,6 @@
 import { IconBrandGithub } from '@tabler/icons-react'
 
-export const FixedRepoButton = () => {
+export const FixedNav = () => {
   return (
     <nav>
       <a  
