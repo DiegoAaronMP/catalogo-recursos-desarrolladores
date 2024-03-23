@@ -50,7 +50,7 @@ export const ResourcesPage = () => {
             </div>
 
             {/* Contenedor de las cards*/}
-            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max p-4 gap-3 gap-y-5 bg-white mx-7 md:mx-16 lg:mx-40 w-auto h-auto rounded-md'>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max p-4 gap-3 gap-y-5 bg-white mx-7 mb-5 md:mx-16 lg:mx-40 w-auto h-auto rounded-md'>
                 {
                     resources.map(resource => (
                         <ResourceCard key={resource.id} {...resource} />
