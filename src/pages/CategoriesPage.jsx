@@ -1,5 +1,6 @@
 import { CategoryCard } from '../components/CategoryCard'
 import { FixedNav } from '../components/FixedNav'
+import { Footer } from '../components/Footer'
 import { categoryArray } from '../consts/categoryArray'
 
 
@@ -23,6 +24,8 @@ export const CategoriesPage = () => {
                     ))
                 }
             </section>
+
+            <Footer />
         </>
     )
 }
