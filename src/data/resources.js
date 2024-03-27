@@ -128,7 +128,7 @@ export const resources = [
       {
         "id": 15,
         "title": "Tabler",
-        "category": "Iconos",
+        "category": "Íconos",
         "tags": ["SVG"],
         "description": "Más de 4950 íconos para diseño web.",
         "image": "src/images/categories/icons/tabler.jpg",
@@ -137,7 +137,7 @@ export const resources = [
       {
         "id": 16,
         "title": "unDraw",
-        "category": "Iconos",
+        "category": "Íconos",
         "tags": ["SVG", "Ilustraciones"],
         "description": "Ilustraciones SVG personalizables.",
         "image": "src/images/categories/icons/undraw.jpg",
@@ -165,7 +165,7 @@ export const resources = [
         "id": 19,
         "title": "Omatsuri",
         "category": "Herramientas",
-        "tags": ["Colores, SVG, Iconos"],
+        "tags": ["Colores, SVG, Íconos"],
         "description": "Colección de herramientas que incluye generadores de gradientes, compresión de SVG, conversión de SVG a JSX y más.",
         "image": "src/images/categories/tools/omatsuri.jpg",
         "url": "https://omatsuri.app/"

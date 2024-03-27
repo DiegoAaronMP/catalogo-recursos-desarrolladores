@@ -1,5 +1,5 @@
 export const categoryStyles = {
-    Iconos: {
+    Íconos: {
         bgColorClass: 'bg-[#ff998d]',
         textColorClass: 'text-[#4f0000]',
         hoverBgColorClass: 'hover:bg-[#4f0000]',

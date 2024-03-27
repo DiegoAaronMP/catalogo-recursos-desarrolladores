@@ -1,1 +1,1 @@
-export const categoryArray = ['Iconos', 'Colores', 'Herramientas', 'Fuentes', 'Educación'];
+export const categoryArray = ['Íconos', 'Colores', 'Herramientas', 'Fuentes', 'Educación'];
